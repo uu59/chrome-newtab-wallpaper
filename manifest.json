@@ -1,0 +1,14 @@
+// http://developer.chrome.com/extensions/manifest.html
+{
+  "manifest_version": 2,
+  "name": "New Tab Wallpaper",
+  "version": "1.0.0",
+  "description": "Set wallpaper for new tab page",
+  "icons": 
+  {
+  },
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  }
+}
+
